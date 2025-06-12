@@ -1,0 +1,74 @@
+{
+  "repository": "Repository Analysis",
+  "generated": "2025-06-12T11:33:37.674Z",
+  "generator": "LLM README Generator",
+  "analysis": {
+    "summary": "Complete repository analysis",
+    "totalFiles": 22,
+    "directories": [
+      ".",
+      "F2",
+      "F3",
+      "test"
+    ],
+    "fileTypes": {
+      ".js": 2,
+      ".txt": 10,
+      ".json": 6,
+      ".html": 1,
+      ".md": 1,
+      ".0005656": 1,
+      "no-extension": 1
+    },
+    "structure": {
+      ".": {
+        "fileCount": 13,
+        "totalSize": 4517,
+        "fileTypes": {
+          ".js": 2,
+          ".html": 1,
+          ".json": 3,
+          ".md": 1,
+          ".txt": 4,
+          ".0005656": 1,
+          "no-extension": 1
+        }
+      },
+      "F2": {
+        "fileCount": 3,
+        "totalSize": 429,
+        "fileTypes": {
+          ".txt": 2,
+          ".json": 1
+        }
+      },
+      "F3": {
+        "fileCount": 3,
+        "totalSize": 429,
+        "fileTypes": {
+          ".txt": 2,
+          ".json": 1
+        }
+      },
+      "test": {
+        "fileCount": 3,
+        "totalSize": 436,
+        "fileTypes": {
+          ".txt": 2,
+          ".json": 1
+        }
+      }
+    },
+    "recommendations": [
+      "Review repository structure and organization",
+      "Add comprehensive documentation",
+      "Consider implementing CI/CD pipelines",
+      "Add proper testing coverage"
+    ]
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2025-06-12T11:33:37.674Z",
+    "scope": "full-repository"
+  }
+}
