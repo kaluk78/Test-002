@@ -1,11 +1,11 @@
 {
   "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
   "version": "2.1.0",
-  "generatedAt": "2025-06-16T06:05:36.590Z",
+  "generatedAt": "2025-06-16T06:05:46.446Z",
   "metadata": {
     "directory": {
       "name": "repo",
-      "path": "C:\Users\PC\AppData\Local\Temp\llm-readme-cGnrun\repo",
+      "path": "C:\Users\PC\AppData\Local\Temp\llm-readme-am9R7v\repo",
       "purpose": "Enhanced directory analysis of repo",
       "ownKeyElements": []
     },
