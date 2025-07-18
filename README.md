@@ -1,6 +1,6 @@
-# 🚀 app
+# 🚀 workspace
 
-> Enhanced directory analysis of app
+> Enhanced directory analysis of workspace
 
 [![Status](https://img.shields.io/badge/Status-Active-brightgreen)](#)
 [![Language](https://img.shields.io/badge/Language-JavaScript-blue)](#)
@@ -20,7 +20,7 @@
 
 ## 📖 Description
 
-Enhanced directory analysis of app
+Enhanced directory analysis of workspace
 
 This project demonstrates modern JavaScript development practices with a well-organized codebase structure. It includes implementation files.
 
@@ -37,7 +37,7 @@ Get up and running in just a few steps:
 ```bash
 # Clone the repository
 git clone <repository-url>
-cd app
+cd workspace
 
 # Run the main application
 node index.js
@@ -74,7 +74,7 @@ main();
 ## 📁 Project Structure
 
 ```
-app/
+workspace/
 ├── 📄 README.md          # This file
 └── 📄 package.json       # Project configuration
 ```
@@ -108,7 +108,7 @@ We welcome contributions! Here's how to get started:
 2. **Clone your fork**:
    ```bash
    git clone <your-fork-url>
-   cd app
+   cd workspace
    ```
 3. **Create a feature branch**:
    ```bash
