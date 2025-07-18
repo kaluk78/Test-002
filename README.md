@@ -1,6 +1,6 @@
-# 🚀 repo-a71ca49d-47fe-4408-8ce5-1530423561d7-1752816649274
+# 🚀 app
 
-> Enhanced directory analysis of repo-a71ca49d-47fe-4408-8ce5-1530423561d7-1752816649274
+> Enhanced directory analysis of app
 
 [![Status](https://img.shields.io/badge/Status-Active-brightgreen)](#)
 [![Language](https://img.shields.io/badge/Language-JavaScript-blue)](#)
@@ -20,7 +20,7 @@
 
 ## 📖 Description
 
-Enhanced directory analysis of repo-a71ca49d-47fe-4408-8ce5-1530423561d7-1752816649274
+Enhanced directory analysis of app
 
 This project demonstrates modern JavaScript development practices with a well-organized codebase structure. It includes implementation files.
 
@@ -37,7 +37,7 @@ Get up and running in just a few steps:
 ```bash
 # Clone the repository
 git clone <repository-url>
-cd repo-a71ca49d-47fe-4408-8ce5-1530423561d7-1752816649274
+cd app
 
 # Run the main application
 node index.js
@@ -74,7 +74,7 @@ main();
 ## 📁 Project Structure
 
 ```
-repo-a71ca49d-47fe-4408-8ce5-1530423561d7-1752816649274/
+app/
 ├── 📄 README.md          # This file
 └── 📄 package.json       # Project configuration
 ```
@@ -108,7 +108,7 @@ We welcome contributions! Here's how to get started:
 2. **Clone your fork**:
    ```bash
    git clone <your-fork-url>
-   cd repo-a71ca49d-47fe-4408-8ce5-1530423561d7-1752816649274
+   cd app
    ```
 3. **Create a feature branch**:
    ```bash
