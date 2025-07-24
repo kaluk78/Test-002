@@ -78,6 +78,7 @@ main();
 
 ```
 workspace/
+├── 📁 master-index/
 ├── 📁 test/ # Test files and test utilities
 └── 📁 utils/ # Helper functions and utilities
 ├── 📄 README.md          # This file
@@ -86,6 +87,7 @@ workspace/
 
 ### Directory Overview
 
+- **`master-index/`** - Enhanced directory analysis of master-index
 - **`test/`** - Enhanced directory analysis of test
 - **`utils/`** - Enhanced directory analysis of utils
 
@@ -124,6 +126,7 @@ The test suite covers:
 
 For detailed API documentation, see the README files in each directory:
 
+- [`master-index/` API Documentation](./master-index/README.md)
 - [`test/` API Documentation](./test/README.md)
 - [`utils/` API Documentation](./utils/README.md)
 
