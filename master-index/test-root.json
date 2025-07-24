@@ -1,0 +1,504 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-07-24T06:09:37.182Z",
+  "configuration": {
+    "detectPlaceholders": false,
+    "placeholderConfidence": 40,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "test",
+      "path": "test",
+      "purpose": "Enhanced directory analysis of test",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "test_file_5.ts",
+        "path": "test/test_file_5.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 250,
+        "importedModules": [
+          {
+            "name": "axios",
+            "sourceModule": "axios",
+            "isDefault": true
+          },
+          {
+            "name": "User",
+            "sourceModule": "./types",
+            "isDefault": false,
+            "namedImports": [
+              "User",
+              "Product",
+              "Order"
+            ]
+          },
+          {
+            "name": "uuidv4",
+            "sourceModule": "uuid",
+            "isDefault": false,
+            "namedImports": [
+              "uuidv4"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "mockUsers",
+            "type": "const"
+          },
+          {
+            "name": "mockProducts",
+            "type": "const"
+          },
+          {
+            "name": "mockOrders",
+            "type": "const"
+          },
+          {
+            "name": "fetchUserData",
+            "type": "function"
+          },
+          {
+            "name": "calculateOrderTotal",
+            "type": "function"
+          },
+          {
+            "name": "processPayment",
+            "type": "function"
+          },
+          {
+            "name": "initiateShipping",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "fetchUserData",
+            "type": "function",
+            "signature": "function fetchUserData()"
+          },
+          {
+            "name": "calculateOrderTotal",
+            "type": "function",
+            "signature": "function calculateOrderTotal()"
+          },
+          {
+            "name": "processPayment",
+            "type": "function",
+            "signature": "function processPayment()"
+          },
+          {
+            "name": "initiateShipping",
+            "type": "function",
+            "signature": "function initiateShipping()"
+          },
+          {
+            "name": "BASE_URL",
+            "type": "const",
+            "signature": "const BASE_URL"
+          },
+          {
+            "name": "TODO_REPLACE_THIS",
+            "type": "const",
+            "signature": "const TODO_REPLACE_THIS"
+          }
+        ]
+      },
+      {
+        "name": "test_file_4.ts",
+        "path": "test/test_file_4.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 250,
+        "importedModules": [
+          {
+            "name": "axios",
+            "sourceModule": "axios",
+            "isDefault": true
+          },
+          {
+            "name": "User",
+            "sourceModule": "./types",
+            "isDefault": false,
+            "namedImports": [
+              "User",
+              "Product",
+              "Order"
+            ]
+          },
+          {
+            "name": "uuidv4",
+            "sourceModule": "uuid",
+            "isDefault": false,
+            "namedImports": [
+              "uuidv4"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "mockUsers",
+            "type": "const"
+          },
+          {
+            "name": "mockProducts",
+            "type": "const"
+          },
+          {
+            "name": "mockOrders",
+            "type": "const"
+          },
+          {
+            "name": "fetchUserData",
+            "type": "function"
+          },
+          {
+            "name": "calculateOrderTotal",
+            "type": "function"
+          },
+          {
+            "name": "processPayment",
+            "type": "function"
+          },
+          {
+            "name": "initiateShipping",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "fetchUserData",
+            "type": "function",
+            "signature": "function fetchUserData()"
+          },
+          {
+            "name": "calculateOrderTotal",
+            "type": "function",
+            "signature": "function calculateOrderTotal()"
+          },
+          {
+            "name": "processPayment",
+            "type": "function",
+            "signature": "function processPayment()"
+          },
+          {
+            "name": "initiateShipping",
+            "type": "function",
+            "signature": "function initiateShipping()"
+          },
+          {
+            "name": "BASE_URL",
+            "type": "const",
+            "signature": "const BASE_URL"
+          },
+          {
+            "name": "TODO_REPLACE_THIS",
+            "type": "const",
+            "signature": "const TODO_REPLACE_THIS"
+          }
+        ]
+      },
+      {
+        "name": "test_file_3.ts",
+        "path": "test/test_file_3.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 250,
+        "importedModules": [
+          {
+            "name": "axios",
+            "sourceModule": "axios",
+            "isDefault": true
+          },
+          {
+            "name": "User",
+            "sourceModule": "./types",
+            "isDefault": false,
+            "namedImports": [
+              "User",
+              "Product",
+              "Order"
+            ]
+          },
+          {
+            "name": "uuidv4",
+            "sourceModule": "uuid",
+            "isDefault": false,
+            "namedImports": [
+              "uuidv4"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "mockUsers",
+            "type": "const"
+          },
+          {
+            "name": "mockProducts",
+            "type": "const"
+          },
+          {
+            "name": "mockOrders",
+            "type": "const"
+          },
+          {
+            "name": "fetchUserData",
+            "type": "function"
+          },
+          {
+            "name": "calculateOrderTotal",
+            "type": "function"
+          },
+          {
+            "name": "processPayment",
+            "type": "function"
+          },
+          {
+            "name": "initiateShipping",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "fetchUserData",
+            "type": "function",
+            "signature": "function fetchUserData()"
+          },
+          {
+            "name": "calculateOrderTotal",
+            "type": "function",
+            "signature": "function calculateOrderTotal()"
+          },
+          {
+            "name": "processPayment",
+            "type": "function",
+            "signature": "function processPayment()"
+          },
+          {
+            "name": "initiateShipping",
+            "type": "function",
+            "signature": "function initiateShipping()"
+          },
+          {
+            "name": "BASE_URL",
+            "type": "const",
+            "signature": "const BASE_URL"
+          },
+          {
+            "name": "TODO_REPLACE_THIS",
+            "type": "const",
+            "signature": "const TODO_REPLACE_THIS"
+          }
+        ]
+      },
+      {
+        "name": "test_file_2.ts",
+        "path": "test/test_file_2.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 250,
+        "importedModules": [
+          {
+            "name": "axios",
+            "sourceModule": "axios",
+            "isDefault": true
+          },
+          {
+            "name": "User",
+            "sourceModule": "./types",
+            "isDefault": false,
+            "namedImports": [
+              "User",
+              "Product",
+              "Order"
+            ]
+          },
+          {
+            "name": "uuidv4",
+            "sourceModule": "uuid",
+            "isDefault": false,
+            "namedImports": [
+              "uuidv4"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "mockUsers",
+            "type": "const"
+          },
+          {
+            "name": "mockProducts",
+            "type": "const"
+          },
+          {
+            "name": "mockOrders",
+            "type": "const"
+          },
+          {
+            "name": "fetchUserData",
+            "type": "function"
+          },
+          {
+            "name": "calculateOrderTotal",
+            "type": "function"
+          },
+          {
+            "name": "processPayment",
+            "type": "function"
+          },
+          {
+            "name": "initiateShipping",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "fetchUserData",
+            "type": "function",
+            "signature": "function fetchUserData()"
+          },
+          {
+            "name": "calculateOrderTotal",
+            "type": "function",
+            "signature": "function calculateOrderTotal()"
+          },
+          {
+            "name": "processPayment",
+            "type": "function",
+            "signature": "function processPayment()"
+          },
+          {
+            "name": "initiateShipping",
+            "type": "function",
+            "signature": "function initiateShipping()"
+          },
+          {
+            "name": "BASE_URL",
+            "type": "const",
+            "signature": "const BASE_URL"
+          },
+          {
+            "name": "TODO_REPLACE_THIS",
+            "type": "const",
+            "signature": "const TODO_REPLACE_THIS"
+          }
+        ]
+      },
+      {
+        "name": "test_file_1.ts",
+        "path": "test/test_file_1.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 250,
+        "importedModules": [
+          {
+            "name": "axios",
+            "sourceModule": "axios",
+            "isDefault": true
+          },
+          {
+            "name": "User",
+            "sourceModule": "./types",
+            "isDefault": false,
+            "namedImports": [
+              "User",
+              "Product",
+              "Order"
+            ]
+          },
+          {
+            "name": "uuidv4",
+            "sourceModule": "uuid",
+            "isDefault": false,
+            "namedImports": [
+              "uuidv4"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "mockUsers",
+            "type": "const"
+          },
+          {
+            "name": "mockProducts",
+            "type": "const"
+          },
+          {
+            "name": "mockOrders",
+            "type": "const"
+          },
+          {
+            "name": "fetchUserData",
+            "type": "function"
+          },
+          {
+            "name": "calculateOrderTotal",
+            "type": "function"
+          },
+          {
+            "name": "processPayment",
+            "type": "function"
+          },
+          {
+            "name": "initiateShipping",
+            "type": "function"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "fetchUserData",
+            "type": "function",
+            "signature": "function fetchUserData()"
+          },
+          {
+            "name": "calculateOrderTotal",
+            "type": "function",
+            "signature": "function calculateOrderTotal()"
+          },
+          {
+            "name": "processPayment",
+            "type": "function",
+            "signature": "function processPayment()"
+          },
+          {
+            "name": "initiateShipping",
+            "type": "function",
+            "signature": "function initiateShipping()"
+          },
+          {
+            "name": "BASE_URL",
+            "type": "const",
+            "signature": "const BASE_URL"
+          },
+          {
+            "name": "TODO_REPLACE_THIS",
+            "type": "const",
+            "signature": "const TODO_REPLACE_THIS"
+          }
+        ]
+      }
+    ],
+    "subdirectories": []
+  }
+}

@@ -1,0 +1,273 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-07-24T06:09:37.408Z",
+  "configuration": {
+    "detectPlaceholders": false,
+    "placeholderConfidence": 40,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "utils",
+      "path": "utils",
+      "purpose": "Enhanced directory analysis of utils",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "index.js",
+        "path": "utils/index.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 37,
+        "importedModules": [],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "main",
+            "type": "function",
+            "signature": "function main()"
+          }
+        ]
+      },
+      {
+        "name": "helpers.js",
+        "path": "utils/helpers.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 60,
+        "importedModules": [],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "formatNumber",
+            "type": "function",
+            "signature": "function formatNumber()"
+          },
+          {
+            "name": "isValidNumber",
+            "type": "function",
+            "signature": "function isValidNumber()"
+          },
+          {
+            "name": "calculatePercentage",
+            "type": "function",
+            "signature": "function calculatePercentage()"
+          },
+          {
+            "name": "roundToDecimals",
+            "type": "function",
+            "signature": "function roundToDecimals()"
+          }
+        ]
+      },
+      {
+        "name": "controller.ts",
+        "path": "utils/controller.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 57,
+        "importedModules": [
+          {
+            "name": "Request",
+            "sourceModule": "express",
+            "isDefault": false,
+            "namedImports": [
+              "Request",
+              "Response"
+            ]
+          },
+          {
+            "name": "UserService",
+            "sourceModule": "../services/UserService",
+            "isDefault": false,
+            "namedImports": [
+              "UserService"
+            ]
+          },
+          {
+            "name": "User",
+            "sourceModule": "../models/User",
+            "isDefault": false,
+            "namedImports": [
+              "User"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "UserController",
+            "type": "class"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "UserController",
+            "type": "class",
+            "signature": "class UserController"
+          }
+        ]
+      },
+      {
+        "name": "calculator.test.js",
+        "path": "utils/calculator.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 98,
+        "importedModules": [],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "runTests",
+            "type": "function",
+            "signature": "function runTests()"
+          },
+          {
+            "name": "test",
+            "type": "function",
+            "signature": "function test()"
+          },
+          {
+            "name": "assertEquals",
+            "type": "function",
+            "signature": "function assertEquals()"
+          }
+        ]
+      },
+      {
+        "name": "calculator.js",
+        "path": "utils/calculator.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 77,
+        "importedModules": [],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "providing",
+            "type": "class",
+            "signature": "class providing"
+          },
+          {
+            "name": "Calculator",
+            "type": "class",
+            "signature": "class Calculator"
+          }
+        ]
+      },
+      {
+        "name": "ProductListComponent.tsx",
+        "path": "utils/ProductListComponent.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 48,
+        "importedModules": [
+          {
+            "name": "React",
+            "sourceModule": "react",
+            "isDefault": true,
+            "namedImports": [
+              "useEffect",
+              "useState"
+            ]
+          },
+          {
+            "name": "Product",
+            "sourceModule": "../types/Product",
+            "isDefault": false,
+            "namedImports": [
+              "Product"
+            ]
+          },
+          {
+            "name": "fetchProducts",
+            "sourceModule": "../services/ProductService",
+            "isDefault": false,
+            "namedImports": [
+              "fetchProducts"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "ProductListComponent",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "to",
+            "type": "class",
+            "signature": "class to"
+          },
+          {
+            "name": "P",
+            "type": "const",
+            "signature": "const P"
+          }
+        ]
+      },
+      {
+        "name": "AuthUtils.ts",
+        "path": "utils/AuthUtils.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 32,
+        "importedModules": [
+          {
+            "name": "jwt",
+            "sourceModule": "jsonwebtoken",
+            "isDefault": true
+          },
+          {
+            "name": "bcrypt",
+            "sourceModule": "bcryptjs",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "AuthUtils",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "SECRET_KEY",
+            "type": "const",
+            "signature": "const SECRET_KEY"
+          },
+          {
+            "name": "SALT_ROUNDS",
+            "type": "const",
+            "signature": "const SALT_ROUNDS"
+          },
+          {
+            "name": "A",
+            "type": "const",
+            "signature": "const A"
+          }
+        ]
+      }
+    ],
+    "subdirectories": []
+  }
+}
