@@ -5,7 +5,7 @@
 [![Status](https://img.shields.io/badge/Status-Active-brightgreen)](#)
 [![Language](https://img.shields.io/badge/Language-JavaScript-blue)](#)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](#)
-[![Generated](https://img.shields.io/badge/Generated-7/24/2025-orange)](#)
+[![Generated](https://img.shields.io/badge/Generated-7/18/2025-orange)](#)
 
 ## 📋 Table of Contents
 
@@ -23,13 +23,11 @@
 
 Enhanced directory analysis of workspace
 
-This project demonstrates modern JavaScript development practices with a well-organized codebase structure. It includes implementation files, comprehensive testing, and utility functions.
+This project demonstrates modern JavaScript development practices with a well-organized codebase structure. It includes implementation files.
+
 
 ### ✨ Key Features
-
 - 🏗️ **Well-Structured Architecture** - Organized codebase with clear separation of concerns
-- ✅ **Comprehensive Testing** - Full test suite ensuring code reliability
-- 🛠️ **Utility Functions** - Reusable helper functions and utilities
 - 📚 **Auto-Generated Documentation** - AI-powered README generation with detailed API docs
 - 🔧 **Developer-Friendly** - Easy to understand, modify, and extend
 
@@ -78,18 +76,17 @@ main();
 
 ```
 workspace/
-├── 📁 master-index/
-├── 📁 test/ # Test files and test utilities
-└── 📁 utils/ # Helper functions and utilities
+├── 📁 Test/
+└── 📁 just/
 ├── 📄 README.md          # This file
 └── 📄 package.json       # Project configuration
 ```
 
 ### Directory Overview
 
-- **`master-index/`** - Enhanced directory analysis of master-index
-- **`test/`** - Enhanced directory analysis of test
-- **`utils/`** - Enhanced directory analysis of utils
+- **`Test/`** - Enhanced directory analysis of Test
+- **`just/`** - Enhanced directory analysis of just
+
 
 ## ⚙️ Configuration
 
@@ -122,13 +119,14 @@ The test suite covers:
 - ✅ Edge cases
 - ✅ Input validation
 
+
 ## 📚 API Reference
 
 For detailed API documentation, see the README files in each directory:
 
-- [`master-index/` API Documentation](./master-index/README.md)
-- [`test/` API Documentation](./test/README.md)
-- [`utils/` API Documentation](./utils/README.md)
+
+- [`Test/` API Documentation](./Test/README.md)
+- [`just/` API Documentation](./just/README.md)
 
 ## 🤝 Contributing
 
@@ -147,26 +145,21 @@ We welcome contributions! Here's how to get started:
    git checkout -b feature/amazing-feature
    ```
 4. **Make your changes** and add tests if applicable
-5. **Run tests** to ensure everything works:
-   ```bash
-   node tests/
-   ```
-6. **Commit your changes**:
+5. **Commit your changes**:
    ```bash
    git commit -m 'Add amazing feature'
    ```
-7. **Push to your branch**:
+6. **Push to your branch**:
    ```bash
    git push origin feature/amazing-feature
    ```
-8. **Open a Pull Request**
+7. **Open a Pull Request**
 
 ### Code Style
 
 - Use clear, descriptive variable names
 - Add comments for complex logic
 - Follow existing code patterns
-- Include tests for new features
 
 ## 📄 License
 
