@@ -15,6 +15,7 @@
 - [Usage](#-usage)
 - [Project Structure](#-project-structure)
 - [Configuration](#-configuration)
+- [Testing](#-testing)
 - [Contributing](#-contributing)
 - [License](#-license)
 
@@ -24,8 +25,8 @@ Enhanced directory analysis of workspace
 
 This project demonstrates modern JavaScript development practices with a well-organized codebase structure. It includes implementation files.
 
-### ✨ Key Features
 
+### ✨ Key Features
 - 🏗️ **Well-Structured Architecture** - Organized codebase with clear separation of concerns
 - 📚 **Auto-Generated Documentation** - AI-powered README generation with detailed API docs
 - 🔧 **Developer-Friendly** - Easy to understand, modify, and extend
@@ -86,6 +87,7 @@ workspace/
 - **`Test/`** - Enhanced directory analysis of Test
 - **`just/`** - Enhanced directory analysis of just
 
+
 ## ⚙️ Configuration
 
 ### Environment Variables
@@ -97,9 +99,31 @@ No environment variables are required for basic functionality.
 - **`package.json`** - Project metadata and dependencies
 - **`README.md`** - Project documentation (this file)
 
+## 🧪 Testing
+
+Run the test suite to verify functionality:
+
+```bash
+# Run all tests
+node tests/
+
+# Run specific test file
+node tests/calculator.test.js
+```
+
+### Test Coverage
+
+The test suite covers:
+- ✅ Core functionality
+- ✅ Error handling
+- ✅ Edge cases
+- ✅ Input validation
+
+
 ## 📚 API Reference
 
 For detailed API documentation, see the README files in each directory:
+
 
 - [`Test/` API Documentation](./Test/README.md)
 - [`just/` API Documentation](./just/README.md)

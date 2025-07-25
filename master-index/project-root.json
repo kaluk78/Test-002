@@ -50,6 +50,18 @@
         "keyElementsInFile": []
       },
       {
+        "name": "test.js",
+        "path": "test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 3,
+        "importedModules": [],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
         "name": "eslint.config.js",
         "path": "eslint.config.js",
         "filePurpose": "JavaScript ES2022 implementation file",
@@ -95,15 +107,21 @@
     ],
     "subdirectories": [
       {
-        "name": "Test",
-        "relativePath": "Test",
-        "sourcedPurposeFromChild": "Enhanced directory analysis of Test",
+        "name": "master-index",
+        "relativePath": "master-index",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of master-index",
         "keyElementsFromChild": []
       },
       {
-        "name": "just",
-        "relativePath": "just",
-        "sourcedPurposeFromChild": "Enhanced directory analysis of just",
+        "name": "test",
+        "relativePath": "test",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of test",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "utils",
+        "relativePath": "utils",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of utils",
         "keyElementsFromChild": []
       }
     ]

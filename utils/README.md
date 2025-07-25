@@ -1,0 +1,216 @@
+# 📁 utils
+
+> Enhanced directory analysis of utils
+
+## 📋 Directory Overview
+
+Enhanced directory analysis of utils
+
+**📊 Directory Statistics:**
+- **Files:** 7 JavaScript ES2022 files
+- **Languages:** JavaScript ES2022, TypeScript 5.4
+- **Last Updated:** 7/24/2025
+
+## 🗂 Directory Structure
+
+```
+utils/
+├── 📄 utils/index.js (37 lines)
+├── 📄 utils/helpers.js (60 lines)
+├── 📄 utils/controller.ts (57 lines)
+├── 📄 utils/calculator.test.js (98 lines)
+├── 📄 utils/calculator.js (77 lines)
+├── 📄 utils/ProductListComponent.tsx (48 lines)
+└── 📄 utils/AuthUtils.ts (32 lines)
+```
+
+## 🎯 Files in this Directory
+
+### 📄 `utils/index.js`
+**File Information:**
+- **Language:** JavaScript ES2022
+- **Lines of Code:** 37
+
+**Code Elements:**
+
+#### ⚙️ Functions (1)
+- **`main()`** - function main()
+
+#### 💻 Usage Example
+```js
+// Import and use functions
+const { main } = require('./index.js');
+const result = main();
+console.log(result);
+```
+
+---
+
+### 📄 `utils/helpers.js`
+**File Information:**
+- **Language:** JavaScript ES2022
+- **Lines of Code:** 60
+
+**Code Elements:**
+
+#### ⚙️ Functions (4)
+- **`formatNumber()`** - function formatNumber()
+- **`isValidNumber()`** - function isValidNumber()
+- **`calculatePercentage()`** - function calculatePercentage()
+- **`roundToDecimals()`** - function roundToDecimals()
+
+#### 💻 Usage Example
+```js
+// Import and use functions
+const { formatNumber } = require('./helpers.js');
+const result = formatNumber();
+console.log(result);
+```
+
+---
+
+### 📄 `utils/controller.ts`
+**File Information:**
+- **Language:** TypeScript 5.4
+- **Lines of Code:** 57
+
+**Code Elements:**
+
+#### 🏗️ Classes (1)
+- **`UserController`** - UserController class implementation
+
+#### 📥 Imports (3)
+- `Request`
+- `UserService`
+- `User`
+
+#### 📤 Exports (1)
+- `UserController`
+
+#### 💻 Usage Example
+```js
+// Import and use the UserController
+const { UserController } = require('./controller.ts');
+const instance = new UserController();
+
+```
+
+---
+
+### 📄 `utils/calculator.test.js`
+**File Information:**
+- **Language:** JavaScript ES2022
+- **Lines of Code:** 98
+
+**Code Elements:**
+
+#### ⚙️ Functions (3)
+- **`runTests()`** - function runTests()
+- **`test()`** - function test()
+- **`assertEquals()`** - function assertEquals()
+
+#### 💻 Usage Example
+```js
+// Import and use functions
+const { runTests } = require('./calculator.test.js');
+const result = runTests();
+console.log(result);
+```
+
+---
+
+### 📄 `utils/calculator.js`
+**File Information:**
+- **Language:** JavaScript ES2022
+- **Lines of Code:** 77
+
+**Code Elements:**
+
+#### 🏗️ Classes (2)
+- **`providing`** - providing class implementation
+- **`Calculator`** - Calculator class implementation
+
+#### 💻 Usage Example
+```js
+// Import and use the providing
+const { providing } = require('./calculator.js');
+const instance = new providing();
+
+```
+
+---
+
+### 📄 `utils/ProductListComponent.tsx`
+**File Information:**
+- **Language:** TypeScript 5.4
+- **Lines of Code:** 48
+
+**Code Elements:**
+
+#### 🏗️ Classes (1)
+- **`to`** - to class implementation
+
+#### 📥 Imports (3)
+- `React`
+- `Product`
+- `fetchProducts`
+
+#### 📤 Exports (1)
+- `ProductListComponent`
+
+#### 💻 Usage Example
+```js
+// Import and use the to
+const { to } = require('./ProductListComponent.tsx');
+const instance = new to();
+
+```
+
+---
+
+### 📄 `utils/AuthUtils.ts`
+**File Information:**
+- **Language:** TypeScript 5.4
+- **Lines of Code:** 32
+
+**Code Elements:**
+
+#### 📥 Imports (2)
+- `jwt`
+- `bcrypt`
+
+#### 📤 Exports (1)
+- `AuthUtils`
+
+#### 💻 Usage Example
+```js
+```
+
+---
+
+## 📚 API Reference Summary
+
+### Classes
+| Class | File | Description |
+|-------|------|-------------|
+| `UserController` | `utils/controller.ts` | UserController class implementation |
+| `providing` | `utils/calculator.js` | providing class implementation |
+| `Calculator` | `utils/calculator.js` | Calculator class implementation |
+| `to` | `utils/ProductListComponent.tsx` | to class implementation |
+
+### Functions
+| Function | File | Description |
+|----------|------|-------------|
+| `main()` | `utils/index.js` | main function implementation |
+| `formatNumber()` | `utils/helpers.js` | formatNumber function implementation |
+| `isValidNumber()` | `utils/helpers.js` | isValidNumber function implementation |
+| `calculatePercentage()` | `utils/helpers.js` | calculatePercentage function implementation |
+| `roundToDecimals()` | `utils/helpers.js` | roundToDecimals function implementation |
+| `runTests()` | `utils/calculator.test.js` | runTests function implementation |
+| `test()` | `utils/calculator.test.js` | test function implementation |
+| `assertEquals()` | `utils/calculator.test.js` | assertEquals function implementation |
+
+---
+
+*Generated by Deduplicode: https://deduplicode.ai*
+*© 2025 Deduplicode Services, Inc. | Created by Keith Costello*
