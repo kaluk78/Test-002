@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-11-21T03:59:40.578Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 45,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "workspace",
+      "path": ".",
+      "purpose": "Enhanced directory analysis of workspace",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "vite.config.js",
+        "path": "vite.config.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 8,
+        "importedModules": [
+          {
+            "name": "defineConfig",
+            "sourceModule": "vite",
+            "isDefault": false,
+            "namedImports": [
+              "defineConfig"
+            ]
+          },
+          {
+            "name": "react",
+            "sourceModule": "@vitejs/plugin-react",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "eslint.config.js",
+        "path": "eslint.config.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 39,
+        "importedModules": [
+          {
+            "name": "js",
+            "sourceModule": "@eslint/js",
+            "isDefault": true
+          },
+          {
+            "name": "globals",
+            "sourceModule": "globals",
+            "isDefault": true
+          },
+          {
+            "name": "react",
+            "sourceModule": "eslint-plugin-react",
+            "isDefault": true
+          },
+          {
+            "name": "reactHooks",
+            "sourceModule": "eslint-plugin-react-hooks",
+            "isDefault": true
+          },
+          {
+            "name": "reactRefresh",
+            "sourceModule": "eslint-plugin-react-refresh",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      }
+    ],
+    "subdirectories": []
+  }
+}
