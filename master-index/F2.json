@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-11-21T04:00:24.247Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 45,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "F2",
+      "path": "F2",
+      "purpose": "Enhanced directory analysis of F2",
+      "ownKeyElements": []
+    },
+    "files": [],
+    "subdirectories": []
+  }
+}

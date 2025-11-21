@@ -1,0 +1,642 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-11-21T04:00:24.663Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 45,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "workspace",
+      "path": ".",
+      "purpose": "Enhanced directory analysis of workspace",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "vite.config.js",
+        "path": "vite.config.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 8,
+        "importedModules": [
+          {
+            "name": "defineConfig",
+            "sourceModule": "vite",
+            "isDefault": false,
+            "namedImports": [
+              "defineConfig"
+            ]
+          },
+          {
+            "name": "react",
+            "sourceModule": "@vitejs/plugin-react",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "test.tsx",
+        "path": "test.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 1,
+        "importedModules": [],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "eslint.config.js",
+        "path": "eslint.config.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 39,
+        "importedModules": [
+          {
+            "name": "js",
+            "sourceModule": "@eslint/js",
+            "isDefault": true
+          },
+          {
+            "name": "globals",
+            "sourceModule": "globals",
+            "isDefault": true
+          },
+          {
+            "name": "react",
+            "sourceModule": "eslint-plugin-react",
+            "isDefault": true
+          },
+          {
+            "name": "reactHooks",
+            "sourceModule": "eslint-plugin-react-hooks",
+            "isDefault": true
+          },
+          {
+            "name": "reactRefresh",
+            "sourceModule": "eslint-plugin-react-refresh",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "RepositoryInvite.tsx",
+        "path": "RepositoryInvite.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 155,
+        "placeholderDetection": [
+          {
+            "filePath": "/workspace/RepositoryInvite.tsx",
+            "functionName": "acceptInvitation",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Configuration file - simple functions expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -35,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/workspace/RepositoryInvite.tsx",
+            "functionName": "RepositoryInvite",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function takes no parameters",
+              "Event handler or callback function; Configuration file - simple functions expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 4,
+              "commentAnalysis": 0,
+              "contextFilter": -47,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "React",
+            "sourceModule": "react",
+            "isDefault": true,
+            "namedImports": [
+              "useState",
+              "useEffect"
+            ]
+          },
+          {
+            "name": "useLocation",
+            "sourceModule": "react-router-dom",
+            "isDefault": false,
+            "namedImports": [
+              "useLocation",
+              "useNavigate"
+            ]
+          },
+          {
+            "name": "ArrowLeft",
+            "sourceModule": "lucide-react",
+            "isDefault": false,
+            "namedImports": [
+              "ArrowLeft",
+              "CheckCircle",
+              "ExternalLink",
+              "AlertCircle"
+            ]
+          },
+          {
+            "name": "Button",
+            "sourceModule": "../components/ui/Button",
+            "isDefault": true
+          },
+          {
+            "name": "Card",
+            "sourceModule": "../components/ui/Card",
+            "isDefault": true
+          },
+          {
+            "name": "dataService",
+            "sourceModule": "../services/api/dataService",
+            "isDefault": false,
+            "namedImports": [
+              "dataService"
+            ]
+          },
+          {
+            "name": "useThemeStore",
+            "sourceModule": "../stores/themeStore",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "acceptInvitation",
+            "type": "function",
+            "signature": "const acceptInvitation = () =>"
+          },
+          {
+            "name": "R",
+            "type": "const",
+            "signature": "const R"
+          }
+        ]
+      },
+      {
+        "name": "Dashboard.tsx",
+        "path": "Dashboard.tsx",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 759,
+        "placeholderDetection": [
+          {
+            "filePath": "/workspace/Dashboard.tsx",
+            "functionName": "Dashboard",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function takes no parameters",
+              "Event handler or callback function",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 4,
+              "commentAnalysis": 0,
+              "contextFilter": -12,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/workspace/Dashboard.tsx",
+            "functionName": "getBgColor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function takes no parameters",
+              "Legitimate simple function pattern (getter/setter/utility)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 4,
+              "commentAnalysis": 0,
+              "contextFilter": -30,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/workspace/Dashboard.tsx",
+            "functionName": "RecentToolExecutionsCard",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/workspace/Dashboard.tsx",
+            "functionName": "RepositoryCard",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/workspace/Dashboard.tsx",
+            "functionName": "TaskMetricsCard",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/workspace/Dashboard.tsx",
+            "functionName": "TasksOverview",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/workspace/Dashboard.tsx",
+            "functionName": "TaskStatusCard",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "React",
+            "sourceModule": "react",
+            "isDefault": true,
+            "namedImports": [
+              "useState"
+            ]
+          },
+          {
+            "name": "Link",
+            "sourceModule": "react-router-dom",
+            "isDefault": false,
+            "namedImports": [
+              "Link"
+            ]
+          },
+          {
+            "name": "ArrowRight",
+            "sourceModule": "lucide-react",
+            "isDefault": false,
+            "namedImports": [
+              "ArrowRight",
+              "ChevronDown",
+              "ExternalLink",
+              "Plus",
+              "Clock",
+              "CheckSquare",
+              "AlertCircle",
+              "Timer",
+              "Wrench"
+            ]
+          },
+          {
+            "name": "useMediaQuery",
+            "sourceModule": "react-responsive",
+            "isDefault": false,
+            "namedImports": [
+              "useMediaQuery"
+            ]
+          },
+          {
+            "name": "repositories",
+            "sourceModule": "../data/mockData",
+            "isDefault": false,
+            "namedImports": [
+              "repositories",
+              "activities",
+              "stats",
+              "analyticsData",
+              "tasks",
+              "recommendations"
+            ]
+          },
+          {
+            "name": "HealthTrendChart",
+            "sourceModule": "../components/HealthTrendChart",
+            "isDefault": true
+          },
+          {
+            "name": "ActivityTimeline",
+            "sourceModule": "../components/ActivityTimeline",
+            "isDefault": true
+          },
+          {
+            "name": "RecommendationCard",
+            "sourceModule": "../components/RecommendationCard",
+            "isDefault": true
+          },
+          {
+            "name": "TaskItem",
+            "sourceModule": "../components/TaskItem",
+            "isDefault": true
+          },
+          {
+            "name": "PageHeader",
+            "sourceModule": "../components/ui/PageHeader",
+            "isDefault": true
+          },
+          {
+            "name": "DashboardViewTabs",
+            "sourceModule": "../components/ui/DashboardViewTabs",
+            "isDefault": true
+          },
+          {
+            "name": "Card",
+            "sourceModule": "../components/ui/Card",
+            "isDefault": true,
+            "namedImports": [
+              "CardHeader",
+              "CardTitle",
+              "CardContent",
+              "CardFooter"
+            ]
+          },
+          {
+            "name": "Button",
+            "sourceModule": "../components/ui/Button",
+            "isDefault": true
+          },
+          {
+            "name": "Badge",
+            "sourceModule": "../components/ui/Badge",
+            "isDefault": true
+          },
+          {
+            "name": "TasksGrid",
+            "sourceModule": "../components/tasks/TasksGrid",
+            "isDefault": true
+          },
+          {
+            "name": "StatCard",
+            "sourceModule": "../components/StatCard",
+            "isDefault": true
+          },
+          {
+            "name": "useThemeStore",
+            "sourceModule": "../stores/themeStore",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Dashboard",
+            "type": "function",
+            "signature": "const Dashboard = () =>"
+          },
+          {
+            "name": "TaskStatusCard",
+            "type": "function",
+            "signature": "const TaskStatusCard = () =>"
+          },
+          {
+            "name": "getBgColor",
+            "type": "function",
+            "signature": "const getBgColor = () =>"
+          },
+          {
+            "name": "TaskMetricsCard",
+            "type": "function",
+            "signature": "const TaskMetricsCard = () =>"
+          },
+          {
+            "name": "RecentToolExecutionsCard",
+            "type": "function",
+            "signature": "const RecentToolExecutionsCard = () =>"
+          },
+          {
+            "name": "TasksOverview",
+            "type": "function",
+            "signature": "const TasksOverview = () =>"
+          },
+          {
+            "name": "RepositoryCard",
+            "type": "function",
+            "signature": "const RepositoryCard = () =>"
+          },
+          {
+            "name": "D",
+            "type": "const",
+            "signature": "const D"
+          },
+          {
+            "name": "T",
+            "type": "const",
+            "signature": "const T"
+          },
+          {
+            "name": "T",
+            "type": "const",
+            "signature": "const T"
+          },
+          {
+            "name": "R",
+            "type": "const",
+            "signature": "const R"
+          },
+          {
+            "name": "T",
+            "type": "const",
+            "signature": "const T"
+          },
+          {
+            "name": "R",
+            "type": "const",
+            "signature": "const R"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [
+      {
+        "name": "F2",
+        "relativePath": "F2",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of F2",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "F3",
+        "relativePath": "F3",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of F3",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "test",
+        "relativePath": "test",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of test",
+        "keyElementsFromChild": []
+      }
+    ]
+  }
+}
